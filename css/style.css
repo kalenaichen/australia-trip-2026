@@ -1,3 +1,121 @@
 body{
-    font-family: "Microsoft JhengHei", Arial, sans-serif;
+font-family:"Microsoft JhengHei","Noto Sans TC",Arial,sans-serif;
+background:#f5f7fa;
+margin:0;
+padding:0;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:#0c4a6e;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+header h1{
+margin:0;
+font-size:2rem;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:20px;
+}
+
+.card{
+background:white;
+border-radius:12px;
+padding:20px;
+margin-bottom:20px;
+box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.card h2{
+color:#0c4a6e;
+margin-top:0;
+}
+
+nav{
+background:#083344;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+table th{
+background:#0c4a6e;
+color:white;
+}
+
+table th,
+table td{
+border:1px solid #ddd;
+padding:10px;
+}
+
+.hotel-card{
+background:#eef8ff;
+border-left:5px solid #0284c7;
+padding:15px;
+margin-bottom:15px;
+border-radius:8px;
+}
+
+.btn{
+display:inline-block;
+background:#0284c7;
+color:white;
+padding:8px 15px;
+border-radius:6px;
+text-decoration:none;
+margin-top:8px;
+}
+
+.btn:hover
+
+footer{
+text-align:center;
+padding:20px;
+color:#666;
+}
+
+@media (max-width:768px){
+
+```
+header h1{
+    font-size:1.5rem;
+}
+
+nav a{
+    display:block;
+    margin:10px 0;
+}
+
+.container{
+    padding:10px;
+}
+
+.card{
+    padding:15px;
+}
+```
+
 }
