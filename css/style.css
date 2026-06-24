@@ -80,13 +80,14 @@ border-radius:8px;
 }
 
 .btn{
-display:inline-block;
-background:#0284c7;
-color:white;
-padding:8px 15px;
-border-radius:6px;
-text-decoration:none;
-margin-top:8px;
+    display:inline-block;
+    background:#0284c7;
+    color:white;
+    padding:8px 15px;
+    border-radius:6px;
+    text-decoration:none;
+    margin-top:8px;
+    margin-right:8px;
 }
 
 .btn:hover
